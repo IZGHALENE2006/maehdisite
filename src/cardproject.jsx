@@ -11,6 +11,8 @@ function CardProject(props) {
         overflow-hidden
         border border-[#1f1f1f]
         transition-all duration-300
+        shadow-lg
+        shadow-[#FF8C1A]/10
         hover:scale-105
         hover:shadow-lg
         hover:shadow-[#FF8C1A]/40

@@ -56,3 +56,15 @@
 .animate-lineMove {
   animation: lineMove 4s linear infinite;
 }
+
+@layer components {
+  .animate-float {
+    animation: float-animation 4s ease-in-out infinite;
+  }
+
+  @keyframes float-animation {
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(-15px); }
+    100% { transform: translateY(0px); }
+  }
+}

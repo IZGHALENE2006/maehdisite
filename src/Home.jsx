@@ -46,13 +46,35 @@ function Home() {
             <div className="absolute w-1/2 h-100 bg-[#FF8C1A]/10 rounded-full blur-3xl pointer-events-none"></div>
  
       {/* RIGHT IMAGE */}
-      <div className="relative flex justify-center items-center w-full md:w-1/3">
-        <div className="absolute w-72 h-72 bg-[#FF8C1A]/10 rounded-full blur-3xl pointer-events-none"></div>
+  <div className="relative flex justify-center items-center w-full md:w-1/3 group ">
+  {/* الـ Glow اللي في الخلفية - دابا كيتحرك وكينبض */}
+  <div className="absolute w-72 h-72 bg-[#FF8C1A]/20 rounded-full blur-3xl pointer-events-none 
+    animate-pulse group-hover:bg-[#FF8C1A]/40 transition-all duration-700"></div>
 
-        <div className="relative bg-[#1f1f1f] h-80 w-64 overflow-hidden shadow-[0px_10px_10px_9px_rgba(31,31,31,1)] rounded-3xl">
-          <img src="img4.png" alt="" className="w-full h-full object-cover" />
-        </div>
-      </div>
+  {/* الحاوية الرئيسية للكارط */}
+  <div className="relative bg-[#111111] h-80 w-64 overflow-hidden rounded-3xl 
+    border border-[#2a2a2a] shadow-2xl transition-all duration-500 
+    group-hover:scale-105 group-hover:-rotate-2 group-hover:border-[#FF8C1A]/50">
+    
+    {/* تأثير الإضاءة الفضي (Shine) اللي كيدوز فوق التصويرة */}
+    <div className="absolute animate-float inset-0 w-full h-full bg-gradient-to-tr from-transparent via-white/10 to-transparent 
+      -translate-x-full group-hover:translate-x-full transition-transform duration-1000"></div>
+
+    {/* التصويرة مع تأثير الزووم */}
+    <img 
+      src="img4.png" 
+      alt="Hero" 
+      className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110 group-hover:rotate-2" 
+    />
+
+    {/* إطار داخلي كيبان غير في الـ Hover كيعطي لمسة فنية */}
+    <div className="absolute inset-4 border border-white/5 rounded-2xl pointer-events-none 
+      group-hover:border-[#FF8C1A]/20 transition-colors duration-500"></div>
+  </div>
+
+  {/* عنصر إضافي: نقط (Decor) كيدوروا وراء الصورة */}
+  <div className="absolute -bottom-4 -right-4 w-20 h-20 bg-[radial-gradient(#FF8C1A_1px,transparent_1px)] [background-size:10px_10px] opacity-20 group-hover:opacity-50 transition-opacity"></div>
+</div>
 
     </div>
   )
