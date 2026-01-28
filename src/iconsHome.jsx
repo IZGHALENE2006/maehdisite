@@ -2,7 +2,7 @@ import { FaGithub, FaLinkedin, FaEnvelope,FaInstagram  } from "react-icons/fa";
 
 function Icons(){
     return(
-    <div className="flex gap-6 mt-7 ">
+    <div className="flex gap-6 mt-7 justify-center md:justify-start">
         <div className="border-b-2 border-[#A1A1A1] p-1 transition ">
     <FaGithub className=" text-[#A1A1A1] hover:text-[#FF8C1A] transition cursor-pointer  text-2xl " />
 

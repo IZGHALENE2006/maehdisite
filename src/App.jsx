@@ -4,20 +4,25 @@ import './App.css'
 import Nav from './nav'
 import Home from './Home'
 import Skills from './Skilles'
+import Aboute from './Aboute'
+import Project from './project'
+import Contact from './Contact'
 
 function App() {
 
 
   return (
-<>
+  <>
+      <div className="bg-[#0B0B0B] w-full min-h-screen px-3 md:px-10 flex flex-col">
+        <Nav />
+        <Home />
+      </div>
 
-    <div className='bg-[#0B0B0B] w-full h-screen pl-1 md:pl-10  flex flex-col'>
-<Nav/>
-<Home/>
-
-    </div>
-    <Skills/>
-</>
+      <Skills />
+      <Aboute />
+      <Project />
+      <Contact/>
+    </>
   )
 }
 
