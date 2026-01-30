@@ -189,7 +189,7 @@ return (
       w-full
       pt-5
       px-4 md:px-0
-      min-h-180
+      h-full
     ">
 
       {/* TITLE */}

@@ -4,6 +4,7 @@ function Card({ icon: Icon, name }) {
                     w-72 py-8 px-4 rounded-2xl border border-[#1f1f1f] bg-[#0a0a0a]
                     transition-all duration-300 ease-out
                     hover:border-[#FF8C1A] hover:-translate-y-2
+                    shadow-lg shadow-[#FF8C1A]/40
                     overflow-hidden">
       
       {/* تأثير الإضاءة الخلفية (Glow effect) كيبان غير فاش كيدوز الماوس */}
