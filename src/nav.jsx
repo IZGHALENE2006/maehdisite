@@ -1,6 +1,6 @@
 const Nav = () => {
   const navLinks = [
-    { name: "Home", active: true },
+    { name: "Home", active: true ,href:"#Skilles"},
     { name: "Skills", active: false },
     { name: "About me", active: false },
     { name: "Project", active: false },

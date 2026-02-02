@@ -3,7 +3,7 @@ import './animations.css';
 
 function Aboute() {
   return (
-    <div className="bg-[#0B0B0B] flex flex-col px-5 md:px-16 gap-14 min-h-screen relative overflow-hidden">
+    <div className="bg-[#0B0B0B] flex flex-col px-5 md:px-16 gap-14 h-screen relative overflow-hidden">
       
       {/* Title - مع أنميشين الهبوط */}
       <motion.h1 

@@ -6,9 +6,8 @@ function Project() {
 
   const listProject = [
     { nom: "System gestion Complet", discription: "Gestion les produits, comptes et show les statistiques", linkto: "#", img: "./projectimg/img1.png" },
-    { nom: "E-commerce App", discription: "Online store with payment integration", linkto: "#", img: "./projectimg/img1.png" },
-    { nom: "Portfolio Web", discription: "Personal portfolio built with React", linkto: "#", img: "./projectimg/img1.png" },
-    { nom: "Task Manager", discription: "Manage your daily tasks efficiently", linkto: "#", img: "./projectimg/img1.png" },
+    { nom: "E-commerce App", discription: "Gestion les produits, comptes et show les statistiques", linkto: "#", img: "./projectimg/img5.png" },
+
   ];
 
   const scroll = (direction) => {
